@@ -21,7 +21,14 @@
 
  .pitch{
     height: 618px;
-    background: url('./images/phone.png') no-repeat right
+    position: relative;
+    background: url('./images/phone.png') no-repeat right;
+
+    img{
+      position: absolute;
+      top: 44px;
+      left: 286px;
+    }
  }
 
  .form{
@@ -109,6 +116,7 @@
 
       .signup {
          border: 1px solid #dbdbdb;
+         font-size: 14px;
          background-color: #ffff;
          padding: 10px;
          margin-bottom: 22px;
@@ -121,7 +129,7 @@
 
       .get-app {
          p{
-            font-size: 16px;
+            font-size: 14px;
          }
 
          img {
